@@ -6,7 +6,7 @@ cask "insulator" do
   appcast "https://github.com/andrea-vinci/insulator/releases.atom"
   name "Insulator"
   desc "Tool for devs to debug Kafka based applications and services"
-  homepage "https://andrea-vinci.github.io/Insulator/"
+  homepage "https://github.com/andrea-vinci/Insulator"
 
   auto_updates false
 
