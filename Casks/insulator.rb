@@ -1,6 +1,6 @@
 cask "insulator" do
-  version "0.1.3"
-  sha256 "7177147780a4e0704dd323be3318ae5cc3474fe275b291ebdda265bcba6293f5"
+  version "0.1.77"
+  sha256 "72d9f292965d0d714cfceae56dccf0e2962256c42d36310a33520196d1e47230"
 
   url "https://github.com/andrea-vinci/Insulator/releases/download/#{version}/insulator-mac.zip"
   appcast "https://github.com/andrea-vinci/insulator/releases.atom"
@@ -8,7 +8,7 @@ cask "insulator" do
   desc "Tool for devs to debug Kafka based applications and services"
   homepage "https://github.com/andrea-vinci/Insulator"
 
-  auto_updates false
+  auto_updates true
 
   app "Insulator.app"
 
