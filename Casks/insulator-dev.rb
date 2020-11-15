@@ -8,7 +8,7 @@ cask "insulator-dev" do
   desc "Tool for devs to debug Kafka based applications and services"
   homepage "https://github.com/andrea-vinci/Insulator"
 
-  auto_updates false
+  auto_updates true
 
   app "Insulator.app"
 
