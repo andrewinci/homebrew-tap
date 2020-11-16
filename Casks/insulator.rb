@@ -1,6 +1,6 @@
 cask "insulator" do
-  version "0.1.77"
-  sha256 "72d9f292965d0d714cfceae56dccf0e2962256c42d36310a33520196d1e47230"
+  version "0.2.1"
+  sha256 "bf028b9f3af7c782d098ca5edb8fb9bca91a8c07900136c1397739ce23ce7159"
 
   url "https://github.com/andrea-vinci/Insulator/releases/download/#{version}/insulator-mac.zip"
   appcast "https://github.com/andrea-vinci/insulator/releases.atom"
@@ -14,6 +14,6 @@ cask "insulator" do
 
   zap trash: [
     "~/.insulator.config",
-    "~/Library/Application Support/Insulator/"
+    "~/Library/Application Support/Insulator/",
   ]
 end
