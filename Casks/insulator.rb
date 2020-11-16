@@ -14,5 +14,6 @@ cask "insulator" do
 
   zap trash: [
     "~/.insulator.config",
+    "~/Library/Application Support/Insulator/"
   ]
 end
