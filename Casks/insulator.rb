@@ -1,6 +1,6 @@
 cask "insulator" do
-  version "0.3.1"
-  sha256 "e637e96fc1ab51ed78266fd272af5c6bb5736676f6589d188df10d20e0390ee2"
+  version "0.3.2"
+  sha256 "31d2d62680e7ad3c0d3994fab214ff4baa45d081522c191fdf798d523eee07ba"
 
   url "https://github.com/andrea-vinci/Insulator/releases/download/#{version}/insulator-mac.zip"
   appcast "https://github.com/andrea-vinci/insulator/releases.atom"
